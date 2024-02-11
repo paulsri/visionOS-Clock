@@ -13,7 +13,8 @@ struct Vision_ClockApp: App {
         WindowGroup {
             ContentView()
         }
-
+        .defaultSize(CGSize(width: 600, height: 200))
+        
         ImmersiveSpace(id: "ImmersiveSpace") {
             ImmersiveView()
         }
